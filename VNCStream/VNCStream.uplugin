@@ -1,0 +1,30 @@
+{
+	"FileVersion" : 1,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Thornfield X11",
+	"Description" : "Linux X11 compositor streamer.",
+	"Category" : "Autonomous Software Agent VNC",
+	"CreatedBy" : "Wesxdz",
+	"CreatedByURL" : "wesxdz.github.io",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"SupportedTargetPlatforms": [
+		"Linux"
+	],
+	"Modules" :
+	[
+		{
+			"Name": "VNCViewer",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [ "Linux" ],
+			"TargetDenyList": [ "Server" ]
+		}
+	]
+}

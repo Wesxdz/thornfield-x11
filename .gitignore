@@ -1,0 +1,11 @@
+# Unreal Engine Plugin .gitignore
+
+# Compiled binaries
+*.so
+
+# Intermediate folders
+Binaries/
+Intermediate/
+
+# Third-party library includes
+VNCStream/Source/ThirdParty/X11Lib/include/
